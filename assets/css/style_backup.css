@@ -1,0 +1,243 @@
+header {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dddddd;
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+
+h2 {
+  color: #4aaaa5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  }
+
+body {
+    
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    widows: 962px;
+    color: #777777;
+ }
+     
+  
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+
+  }
+ /*  not sure if we should be using this here
+     ul > :first-child {
+    background: #4aaaa5;
+    float:left;
+  } */
+  
+  li { float: left; }
+  
+  li a {
+    display: block;
+    color:#666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #4aaaa5;
+  }
+  
+    li {
+      border-right: 1px solid #ddd;
+    }
+    
+    #column {
+      float: inline-end;
+      width: 960px; 
+      height: auto;
+      border: 5px solid #4aaaa5;
+      padding: 10px;
+      vertical-align: middle;
+      overflow: hidden;
+        }
+    #column img {
+        display: inline;
+        margin: 0 auto;}
+
+  
+
+
+
+  .name {
+      background-color: #4aaaa5;
+      color: #777777;
+      font-family: 'Georgia', Times, 'Times New Roman', serif;
+      padding: 5px;
+      height: 80%;
+      width: 190px;
+      /*float: left;*/
+      position: absolute;
+      top: 0px;
+      left: 20%;
+  }
+  
+ 
+  .menu {
+      color: #777777;
+      font-family: 'Arial', 'Helvetiv Neue', Helvetica, sans-serif;
+      text-decoration: none;
+      padding: 10px;
+      height: 40%;
+      position: relative;
+      Float: right;
+      right: 80%;
+      top: 10%;
+  }
+  
+  img {
+      width: 20%;
+      height: 20%;
+      float: left;
+      padding: 10px;
+  }
+  
+  p {
+      position: relative;
+      top: 20px;
+  }
+  
+  #about_me {
+      border-bottom: solid black 3px;
+      margin: 20px;
+      padding: 10px;
+  }
+  
+  /*#main_content {
+  }*/
+  
+  .content_background {
+      background-color: #ffffff;
+      height: 500px;
+      width: 60%;
+      position: relative;
+      top: 100px;
+      left: 20%;
+  }
+  
+  footer {
+      position: fixed;
+      border-top: 8px solid #4aaaa5;
+      bottom: 0px;
+      left: 0px;
+      height: 5%;
+      width: 100%;
+      float:center;  
+      background-color : #666666;
+  
+  }
+  
+  .footer_border {
+      Float:center;
+      background-color: #4aaaa5;
+      height: 5%;
+      width: 100%;
+      position: absolute;
+      top: 0px;
+  }
+  
+  .copyright {
+      background-color: darkslategray;
+      text-align: center;
+      vertical-align: bottom;
+      height: 90%;
+      width: 100%;
+      position: absolute;
+      bottom: 0px;
+  }
+  
+  input {
+      margin: 5px;
+  }
+  
+  
+  /*h2 {
+      background-color: #ffffff;
+      border: black solid 2px;
+      width: 940px;
+      padding: 10px;
+      display: block;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+  }*/
+  /*
+  .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }*/ 
+   
+  /*
+  header {
+    background: rgb(124, 166, 221);
+  }
+  
+  h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #eee;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color :  rgb(124, 166, 221);
+  }
+  
+  a {
+    color: #2310d2;
+  }
+  
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  
+  #main-bio,
+  #contact-info,
+  #bio-image {
+    float: left;
+  }
+  
+  #main-bio {
+    width: 70%;
+  }
+  
+  #contact-info {
+    width: 30%;
+  }
+  
+  #bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  */
